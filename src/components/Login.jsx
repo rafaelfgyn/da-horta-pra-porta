@@ -44,7 +44,7 @@ const Login = props => {
 
     if (user.password !== password) { return notifyWarn('Dados Incorretos') }
 
-    window.location.href = "https://da-horta-pra-porta-blush.vercel.app/Usuário/Início"
+    window.location.pathname = "/Usuário/Início"
   }
 
   return (
