@@ -44,7 +44,7 @@ const Login = props => {
 
     if (user.password !== password) { return notifyWarn('Dados Incorretos') }
 
-    window.location.pathname = "/Usuário/Início"
+    window.location.href = "/Usuário/Início"
   }
 
   return (

@@ -33,8 +33,8 @@ const App = props => {
 
         <Switch>
           <Route path="/Usuário/*">
-            <Menu/>
-            <User/>
+            <Menu></Menu>
+            <User></User>
           </Route>
         </Switch>
       </Router>
