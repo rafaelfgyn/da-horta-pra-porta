@@ -12,6 +12,8 @@
   }
 }
 
+
+
 body {
   display: flex;
   justify-content: center;
@@ -36,15 +38,19 @@ body {
   justify-content: center;
   margin: 200px auto 0 auto;
   height: 600px;
-  width: 1200px;
-  border-radius: 20px;
-  overflow: hidden;
+}
+
+.app .content .main {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .app .content .logo {
-  width: 40%;
+  width: 350px;
   background-color: #3c8356;
   color: white;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 .app .logo img {
@@ -58,10 +64,20 @@ body {
   font-family: 'Comfortaa';
 }
 
+@media (max-width: 800px) {
+  .app .content .logo {
+    width: 0;
+  }
+
+  .app .content .main {
+    border-radius: 20px;
+  }
+} 
+
 .app .main {
   display: flex;
   justify-content: center;
-  width: 60%;
+  width: clamp( 320px, 60%, 720px);
   height: 100%;
   background-color: white;
 }
@@ -100,6 +116,7 @@ body {
   border: none;
   background-color: rgb(212, 212, 212);
   font-size: 16px;
+  text-indent: 5px;
 }
 
 .app form input:focus {

@@ -25,7 +25,7 @@ const Cadastro = props => {
   }
 
   const notifySuccess = () => {
-    toast.success('Usuário Cadastrado Com Sucesso!', {
+    toast.success('Usuário cadastrado com sucesso!', {
       position: "top-right",
       autoClose: 2000,
       hideProgressBar: true,
