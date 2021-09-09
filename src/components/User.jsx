@@ -20,31 +20,31 @@ const User = props => {
   return (
     <div className="user">
         <Switch>
-          <Route path="/Usuário/Início">
+          <Route path="https://da-horta-pra-porta-blush.vercel.app/Usuário/Início">
             <Inicio></Inicio>
           </Route>
         </Switch>
 
         <Switch>
-          <Route path="/Usuário/Sobre">
+          <Route path="https://da-horta-pra-porta-blush.vercel.app/Usuário/Sobre">
             <Sobre></Sobre>
           </Route>
         </Switch>
 
         <Switch>
-          <Route path="/Usuário/Produtos">
+          <Route path="https://da-horta-pra-porta-blush.vercel.app/Usuário/Produtos">
             <Produtos></Produtos>
           </Route>
         </Switch>
 
         <Switch>
-          <Route path="/Usuário/Objetivos">
+          <Route path="https://da-horta-pra-porta-blush.vercel.app/Usuário/Objetivos">
             <Objetivos></Objetivos>
           </Route>
         </Switch>
 
         <Switch>
-          <Route path="/Usuário/Contatos">
+          <Route path="https://da-horta-pra-porta-blush.vercel.app/Usuário/Contatos">
             <Contatos></Contatos>
           </Route>
         </Switch>

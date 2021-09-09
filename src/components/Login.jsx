@@ -44,7 +44,7 @@ const Login = props => {
 
     if (user.password !== password) { return notifyWarn('Dados Incorretos') }
 
-    window.location.href = "http://localhost:3000/Usuário/Início"
+    window.location.href = "https://da-horta-pra-porta-blush.vercel.app/Usuário/Início"
   }
 
   return (
@@ -58,9 +58,9 @@ const Login = props => {
           <h3>Seja Bem Vindo!</h3>
           <input type="text" name="Email" placeholder='Email' /><br />
           <input type="text" name='Senha' placeholder='Senha' /><br />
-          <Link to="/redefinir-senha">Esqueceu sua senha?</Link>
+          <Link to="https://da-horta-pra-porta-blush.vercel.app/redefinir-senha">Esqueceu sua senha?</Link>
           <button onClick={e => { e.preventDefault(); login() }}>Entrar</button>
-          <Link to="/cadastro">Cadastrar</Link>
+          <Link to="https://da-horta-pra-porta-blush.vercel.app/cadastro">Cadastrar</Link>
         </form>
         <ToastContainer
           position="top-right"
