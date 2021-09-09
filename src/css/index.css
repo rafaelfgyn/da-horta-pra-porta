@@ -1,0 +1,131 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+@keyframes appear {
+  from {
+      opacity: 0;
+  }
+  
+  to {
+      opacity: 1;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: repeat-x;
+  background-color: #00593C;
+  animation: appear;
+  animation-duration: 1000ms;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  animation: appear;
+  animation-duration: 1000ms;
+}
+
+.app .content {
+  display: flex;
+  justify-content: center;
+  margin: 200px auto 0 auto;
+  height: 600px;
+  width: 1200px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.app .content .logo {
+  width: 40%;
+  background-color: #3c8356;
+  color: white;
+}
+
+.app .logo img {
+  width: 70%;
+  margin: 100px 15% 0 15%;
+  animation: appear;
+}
+
+.app .logo h4 {
+  margin: 30px 10px 0 10px;
+  font-family: 'Comfortaa';
+}
+
+.app .main {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 100%;
+  background-color: white;
+}
+
+.app form {
+  margin-top: 130px;
+  animation: appear;
+  animation-duration: 1500ms;
+}
+
+.app form h3 {
+  display: block;
+  width: fit-content;
+  margin: 0 auto 15px auto;
+  color: #3c8356;
+}
+
+.app form a {
+  display: block;
+  width: fit-content;
+  margin: 10px auto;
+  color: rgb(107, 107, 107);
+  text-decoration: none;
+  color: #3c8356;
+}
+
+.app form a:hover {
+  text-decoration: underline;
+}
+
+.app form input {
+  height: 50px;
+  width: 300px;
+  border-radius: 20px;
+  margin-top: 5px;
+  border: none;
+  background-color: rgb(212, 212, 212);
+  font-size: 16px;
+}
+
+.app form input:focus {
+  outline: none;
+}
+
+.app form input:focus::placeholder {
+  color: transparent;
+}
+
+.app form button {
+  margin-top: 15px;
+  height: 50px;
+  width: 300px;
+  background-color: #268D4C;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+.app form button:hover {
+  cursor: pointer;
+}
+
+.contatos, .inicio, .objetivos, .produtos, .sobre {
+  color: white;
+  position: absolute;
+}
