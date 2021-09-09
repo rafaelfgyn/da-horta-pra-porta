@@ -69,7 +69,7 @@ const Password = props => {
           <input type="text" name="Email" placeholder='Email' /><br />
           <input type="text" name="Senha" placeholder='Senha' /><br />
           <input type="text" name="Confirmação" placeholder='Confirmação de Senha' /><br />
-          <Link to="https://da-horta-pra-porta-blush.vercel.app/">Login</Link>
+          <Link to="/">Login</Link>
           <button onClick={e => { e.preventDefault(); newPassword() }}>Redefinir Senha</button>
         </form>
         <ToastContainer

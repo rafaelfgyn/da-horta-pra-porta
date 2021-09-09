@@ -67,8 +67,8 @@ const Cadastro = props => {
           <input type="text" name="Email" placeholder='Email' /><br />
           <input type="text" name="Senha" placeholder='Senha' /><br />
           <input type="text" name="Confirmação" placeholder='Confirmação de Senha' /><br />
-          <Link to="https://da-horta-pra-porta-blush.vercel.app/redefinir-senha">Esqueceu sua senha?</Link>
-          <Link to="https://da-horta-pra-porta-blush.vercel.app/">Login</Link>
+          <Link to="/redefinir-senha">Esqueceu sua senha?</Link>
+          <Link to="/">Login</Link>
           <button onClick={e => { e.preventDefault(); register() }}>Cadastrar</button>
         </form>
 

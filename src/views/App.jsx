@@ -14,27 +14,27 @@ const App = props => {
     <div className="app">
       <Router>
         <Switch>
-          <Route exact path="https://da-horta-pra-porta-blush.vercel.app/">
-            <Login></Login>
+          <Route exact path="/">
+            <Login/>
           </Route>
         </Switch>
 
         <Switch>
-          <Route path="https://da-horta-pra-porta-blush.vercel.app/redefinir-senha">
-            <Password></Password>
+          <Route path="/redefinir-senha">
+            <Password/>
           </Route>
         </Switch>
 
         <Switch>
-          <Route path="https://da-horta-pra-porta-blush.vercel.app/cadastro">
-            <Registration></Registration>
+          <Route path="/cadastro">
+            <Registration/>
           </Route>
         </Switch>
 
         <Switch>
-          <Route path="https://da-horta-pra-porta-blush.vercel.app/Usuário/*">
-            <Menu></Menu>
-            <User></User>
+          <Route path="/Usuário/*">
+            <Menu/>
+            <User/>
           </Route>
         </Switch>
       </Router>

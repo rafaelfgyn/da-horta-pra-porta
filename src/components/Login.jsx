@@ -58,9 +58,9 @@ const Login = props => {
           <h3>Seja Bem Vindo!</h3>
           <input type="text" name="Email" placeholder='Email' /><br />
           <input type="text" name='Senha' placeholder='Senha' /><br />
-          <Link to="https://da-horta-pra-porta-blush.vercel.app/redefinir-senha">Esqueceu sua senha?</Link>
+          <Link to="/redefinir-senha">Esqueceu sua senha?</Link>
           <button onClick={e => { e.preventDefault(); login() }}>Entrar</button>
-          <Link to="https://da-horta-pra-porta-blush.vercel.app/cadastro">Cadastrar</Link>
+          <Link to="/cadastro">Cadastrar</Link>
         </form>
         <ToastContainer
           position="top-right"
