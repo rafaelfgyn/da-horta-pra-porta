@@ -17,21 +17,15 @@ const App = props => {
           <Route exact path="/">
             <Login/>
           </Route>
-        </Switch>
 
-        <Switch>
           <Route path="/redefinir-senha">
             <Password/>
           </Route>
-        </Switch>
 
-        <Switch>
           <Route path="/cadastro">
             <Registration/>
           </Route>
-        </Switch>
 
-        <Switch>
           <Route path="/Usuário/*">
             <Menu></Menu>
             <User></User>

@@ -23,27 +23,19 @@ const User = props => {
           <Route path="/Usuário/Início">
             <Inicio></Inicio>
           </Route>
-        </Switch>
 
-        <Switch>
           <Route path="/Usuário/Sobre">
             <Sobre></Sobre>
           </Route>
-        </Switch>
 
-        <Switch>
           <Route path="/Usuário/Produtos">
             <Produtos></Produtos>
           </Route>
-        </Switch>
 
-        <Switch>
           <Route path="/Usuário/Objetivos">
             <Objetivos></Objetivos>
           </Route>
-        </Switch>
 
-        <Switch>
           <Route path="/Usuário/Contatos">
             <Contatos></Contatos>
           </Route>
